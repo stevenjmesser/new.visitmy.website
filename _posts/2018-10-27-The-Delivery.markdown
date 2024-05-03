@@ -69,11 +69,11 @@ Initiatives don’t have to fit neatly into key results, or you will have to do 
 
 ### What I Could Do Better
 
-I stormed into the SLO-setting session without much of a plan except what was in my head. I’ll need to firm that up for the next time we run a session, so that there’s less _umm_ing and _ahh_ing.
+I stormed into the SLO-setting session without much of a plan except what was in my head. I’ll need to firm that up for the next time we run a session, so that there’s less *umm*ing and *ahh*ing.
 
 ## Bookmarks
 
 - [To fight fake news on WhatsApp, India is turning off the internet](https://www.wired.co.uk/article/whatsapp-web-internet-shutdown-india-turn-off)
 - [Achieving Extraordinary Results with Ordinary People](https://www.martinlugton.com/achieving-extraordinary-results-with-ordinary-people-marty-cagan/)
 - [Regulating for Responsible Technology: Introducing the Office for Responsible Technology](https://link.medium.com/VfkSxU6JgR)
-- [How we used deep learning to structure GOV.UK's content](https://dataingovernment.blog.gov.uk/2018/10/19/how-we-used-deep-learning-to-structure-gov-uks-content/)
+- [How we used deep learning to structure GOV.UK’s content](https://dataingovernment.blog.gov.uk/2018/10/19/how-we-used-deep-learning-to-structure-gov-uks-content/)
