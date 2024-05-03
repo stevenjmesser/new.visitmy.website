@@ -14,7 +14,7 @@ module Jekyll
     def initialize(site, base, tag)
       @site = site
       @base = base
-      @dir  = File.join('tag', tag)
+      @dir  = File.join('tag', slugify(tag))
       @name = 'index.html'
 
       self.process(@name)
@@ -22,5 +22,12 @@ module Jekyll
       self.data['tag'] = tag
       self.data['title'] = "Tag: #{tag}"
     end
+  
+  private
+
+  def slugify(tag)
+    tag.downcase.gsub(/[^a-z0-9]+/, '-').chomp('-')
+  end
+  
   end
 end
