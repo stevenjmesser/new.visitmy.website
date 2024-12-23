@@ -28,7 +28,9 @@ sass:
 
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap  
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-webmention_io
 
 collections:
   pages:
@@ -38,6 +40,14 @@ collections:
     output: true
     permalink: /:year/:month/:day/:slug
   
+webmentions:
+  username: visitmy.website
+  throttle_lookups:
+    last_week: weekly
+    last_month: monthly
+    last_year: monthly
+    older: every 3 months
+
 defaults:
   -
     scope:
