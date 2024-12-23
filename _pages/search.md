@@ -39,9 +39,9 @@ SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json',
-  searchResultTemplate: '<li><a href="{url}" title="{description}">{title}</a></li>',
+  searchResultTemplate: '<li><a href="{url}" title="{title}">{title}</a> ({tags})</li>',
   noResultsText: 'No results found. Browse <a href="{{ "/topics" | relative_url }}">topics</a> or <a href="{{ "/all" | relative_url }}">view all posts</a>.',
-  limit: 10,
+  limit: 100,
   fuzzy: false,
   exclude: ['Welcome']
 })
