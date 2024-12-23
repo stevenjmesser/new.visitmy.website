@@ -34,10 +34,15 @@
   <meta property="og:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ site.default_img | absolute_url }}{% endif %}">
 
+  <meta name="google-site-verification" content="MixE0RdWuCoS1EFTIOCNODuOa70gx7EbfkJyO-Mw6xA" />
+  <script src="https://cdn.usefathom.com/script.js" data-site="LSWRESZO" defer></script>
   <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml">
   <link rel="alternate" type="application/json" title="{{ site.title }}" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
   <link rel="sitemap" type="application/xml" title="sitemap" href="{{ site.baseurl }}/sitemap.xml" />
+  <link rel="blogroll" type="text/xml" href="{{ '/blogroll.opml' | prepend: site.url }}">
+  <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.url }}">
       
   <style>
     {% capture include_to_scssify %}
