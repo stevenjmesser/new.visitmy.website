@@ -1,15 +1,9 @@
 links:
-- title: Topics
-  url: /topics
 - title: About
   url: /about
 - title: Work
   url: /work
-- title: Contact
-  url: /contact
 - title: Search
   url: /search
-- title: All posts
-  url: /all
-- title: Feed
-  url: /feed.xml
+- title: Contact
+  url: /contact
