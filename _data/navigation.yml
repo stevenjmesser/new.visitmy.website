@@ -12,4 +12,4 @@ links:
 - title: All posts
   url: /all
 - title: Feed
-  url: /atom.xml
+  url: /feed.xml
