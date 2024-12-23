@@ -3,6 +3,12 @@ layout: page
 title: "Page not found"
 permalink: 404.shtml
 ---
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+     var path = window.location.pathname;
+     fathom.trackEvent('404: ' + path);
+   });
+</script>
 <p>If you typed the web address, check it is correct.</p>
 
 <p>If you pasted the web address, check you copied the entire address.</p>
