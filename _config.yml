@@ -17,6 +17,8 @@ highlighter: none
 
 exclude:
   - .jekyll-cache
+  - .ai_related_posts_cache.sqlite3
+  - .ai_related_posts_cache.sqlite3-journal
   
 compress_html:
   clippings: all
@@ -31,6 +33,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-webmention_io
+  - jekyll_ai_related_posts
 
 collections:
   pages:
@@ -47,6 +50,9 @@ webmentions:
     last_month: monthly
     last_year: monthly
     older: every 3 months
+
+ai_related_posts:
+  openai_api_key: 
 
 defaults:
   -
