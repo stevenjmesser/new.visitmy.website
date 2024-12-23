@@ -24,6 +24,8 @@ title: Search
 	}
 </style>
 
+<p>Search through all posts. Alternatively, browse <a href="{{ "/topics" | relative_url }}">topics</a>, or <a href="{{ "/all" | relative_url }}">view all posts</a> if you like scrolling.</p>
+
 <!-- Html Elements for Search -->
 <div id="search-container">
 <input type="text" id="search-input">
@@ -40,7 +42,7 @@ SimpleJekyllSearch({
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json',
   searchResultTemplate: '<li><a href="{url}" title="{title}">{title}</a> ({tags})</li>',
-  noResultsText: 'No results found. Browse <a href="{{ "/topics" | relative_url }}">topics</a> or <a href="{{ "/all" | relative_url }}">view all posts</a>.',
+  noResultsText: 'No results found.',
   limit: 100,
   fuzzy: false,
   exclude: ['Welcome']
