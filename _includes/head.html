@@ -9,7 +9,11 @@
         {% if page.tag %}
           {{ page.tag | escape }}
         {% else %}
-          {{ page.title | escape }}
+          {% if page.sub-title %}
+            {{ page.title | escape }}: {{ page.sub-title | escape }}
+          {% else %}
+            {{ page.title | escape }}
+          {% endif %}
         {% endif %}
         -
       {% endif %}
