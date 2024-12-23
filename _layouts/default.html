@@ -6,13 +6,11 @@ layout: compress
 <html lang="en" >
   {% include head.html %}  
   <body>
-    <main>
-	    
-	    {% include navigation.html %}
-	    
+    <div class="layout-container">
+      {% include navigation.html %}
+      <main>
         {{ content }}
-        	    
-    </main>
-    {% include footer.html %}
+      </main>
+    </div>
   </body>
 </html>
