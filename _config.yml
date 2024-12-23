@@ -1,17 +1,17 @@
 site: Harsh Browns
-url: #yoururl
+url: https://visitmy.website
 title: Harsh Browns
-description: Simple and minimalistic jekyll blogging theme.
+description: Steve Messer’s website. 
 twitter:
-  username: #yourusername
+  username: stevenjmesser
   card: summary
-  creator: #yourusername
+  creator: stevenjmesser
 author:
-  twitter: #yourusername
-  name: #yourusername
+  twitter: stevenjmesser
+  name: Steve Messer
   avatar:
   email: #youremail
-  url: #yoururl
+  url: https://visitmy.website
 permalink: pretty
 
 baseurl: ""
