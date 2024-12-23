@@ -1,11 +1,8 @@
 site: Harsh Browns
 url: https://visitmy.website
 title: Harsh Browns
-description: Steve Messer’s website. 
-twitter:
-  username: stevenjmesser
-  card: summary
-  creator: stevenjmesser
+description: Steve Messer’s website.
+default_img: /assets/images/8a595a78177bf62b.jpeg
 author:
   twitter: stevenjmesser
   name: Steve Messer
@@ -31,7 +28,6 @@ sass:
 
 plugins:
   - jekyll-paginate
-  - jekyll-seo-tag
   - jekyll-sitemap  
 
 collections:
