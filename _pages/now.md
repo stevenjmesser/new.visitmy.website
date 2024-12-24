@@ -6,8 +6,9 @@ permalink: /now
 
 <p>Right now I’m
   <ul>
-    <li>looking for a new contract to start in February or March 2024 (check out my <a href="https://visitmy.website/work" target="_blank">portfolio</a>)</li>
-    <li>reading <i>The Goods of Design</i> by Ariel Guersenzvaig, <i>Acceptance</i> by Jeff VanderMeer and <i>Company of One</i> by Paul Jarvis</li>
+    <li>working on product strategy and leadership at MHCLG (through <a href="https://boringmagi.cc" target="_blank">Boring Magic</a>), making land and housing data easier to find, use and trust</li>
+    <li>increasing my running gradually, after a hip injury</li>
+    <li>reading <i>Travels with a Writing Brush: Classical Japanese Travel Writing from the Manyoshu to Basho</i>, selected and translated by Meredith McKinney</li>
     <li>preparing for my practical driving test</li>
     <li>migrating this website to a new design</li>
   </ul>
@@ -17,8 +18,7 @@ permalink: /now
   <ul>
     <li>pick up where I left off learning Welsh</li>
     <li>walk the Llŷn Peninsula section of the Wales Coast Path</li>
-    <li>finish walking the South Downs Way</li>
-    <li>take and pass my driving test</li>
+    <li>re-take and pass my driving test</li>
   </ul>
 </p>
 

@@ -10,14 +10,16 @@ As a creative product manager, I specialise in modern product methodologies, des
 
 Here’s a list of notable projects I’ve worked on over the last five years. You can <a href="https://standardresume.co/stevenjmesser" target="_blank" onclick="window.fathom.trackGoal('YEQH7NTS', 0);">view my CV</a> for a full history, and read recommendations others have written about me [on LinkedIn](https://www.linkedin.com/in/stevenjmesser/){:target="_blank"}.
 
+You can find out how to hire me at the bottom of the page.
+
 ## GOV.UK Design System at Government Digital Service
 **December 2022 to February 2024**
 
 Provided maternity cover as Senior Product Manager for the [GOV.‌UK Design System](https://gov.uk/design-system), the design system that brings a consistent look and feel to digital services in the GOV.UK ecosystem. 
 
-A large part of my role was to design a ‘more intentional’ strategy that would grow the design system’s impact. Taking influence from open-source software, community-led growth, lean product management and strategic design, I created a strategic model that could be validated and iterated through a discovery. I also established the [team's playbook](https://team-playbook.design-system.service.gov.uk), the ways of working to deliver the strategy.
+A large part of my role was to design a ‘more intentional’ strategy that would grow the design system’s impact. Taking influence from open-source software, community-led growth, lean product management and strategic design, I created a strategic model that could be validated and iterated through a discovery. I also established the [team’s playbook](https://team-playbook.design-system.service.gov.uk), the ways of working to deliver the strategy.
 
-Another significant part of my role was to work with a coach and the delivery manager to create a coaching programme that would decrease risk-aversion and decrease imposter syndrome on the team over a 6-month period. I also helped devise, plan and organise a 2-day conference for 1,200 digital and UX professionals called [Design System Day 2023](https://design-system.service.gov.uk/community/design-system-day-2023/). 
+Another significant part of my role was to work with a coach and the delivery manager to create a coaching programme that would decrease risk-aversion and decrease imposter syndrome on the team over a 6-month period, with the goal of [increasing productivity]({% post_url 2024-03-26-the-govuk-design-system-is-iterating-more-quickly %}). I also helped devise, plan and organise a 2-day conference for 1,200 digital and UX professionals called [Design System Day 2023](https://design-system.service.gov.uk/community/design-system-day-2023/). 
 
 _Skills: Strategy, leadership, coaching, organisation design, design management, product management._
 
@@ -61,7 +63,7 @@ _Skills: Product management, innovation, service design, financial ownership, st
 
 I led a small team on a 3-month discovery to explore the concept of personalisation and how it might improve outcomes for users of UK government services. In the wake of the Cambridge Analytica scandal, it was essential I develop a vision that struck a balance between radically ambitious futures and responsible use of technology. We called it [‘boring magic’]({% post_url 2020-01-08-boring-magic %}).
 
-Over a 6-month period, I led a team to make the vision more tangible through developing a series of proofs-of-concept and prototypes, using techniques from user-centred service design, futures thinking and the burgeoning ethical design practice. We also explored what needed to be true from a technical, legal, funding and capability perspective for the futures to be possible and plausible. Alongside this, we crafted a cross-government strategy and narrative which we presented to Cabinet Ministers and a Chief Advisor. This formed the basis for [GOV.UK's Spending Review representation in 2020](https://www.gov.uk/government/publications/spending-review-2020-documents/spending-review-2020#:~:text=personalised%20public%20services).
+Over a 6-month period, I led a team to make the vision more tangible through developing [a series of proofs-of-concept and prototypes]({% post_url 2024-10-10-sketches-of-future-digital-services-in-government %}), using techniques from user-centred service design, futures thinking and the burgeoning ethical design practice. We also explored what needed to be true from a technical, legal, funding and capability perspective for the futures to be possible and plausible. Alongside this, we crafted a cross-government strategy and narrative which we presented to Cabinet Ministers and a Chief Advisor. This formed the basis for [GOV.UK’s Spending Review representation in 2020](https://www.gov.uk/government/publications/spending-review-2020-documents/spending-review-2020#:~:text=personalised%20public%20services).
 
 _Skills: Strategy, product management, innovation, futures thinking, ethical design, leadership._
 
@@ -73,3 +75,7 @@ After joining Government Digital Service (GDS) in 2018, I started helping organi
 Luckily it went well, and the community across government lapped it up. This gave me the bug and I’ve been organising events, mentoring programmes and other good things for the public-sector product community ever since. In 2023, I co-organised 3 events under the [Product for the People](https://productforthepeople.xyz/about) banner alongside Debbie Blanchard and Matt Jukes.
 
 _Skills: community-building, events management, networking, foolhardiness._
+
+## Hire me
+
+If you have a project that could use my skills, please contact me through the [Boring Magic](https://boringmagi.cc) website.
