@@ -1,3 +1,7 @@
+html {
+	font-size: 19px;
+}
+
 *,:after,:before {
 	box-sizing:border-box;
 	background-color:inherit;
@@ -7,7 +11,7 @@
 }
 
 body {
-	font-family: system-ui, sans-serif;
+	font-family: Helvetica Neue, system-ui, sans-serif;
 	-webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 	line-height:1.5;
@@ -34,12 +38,16 @@ pre {
 	margin: .5rem 0;
 }
 
+.post p:first-child {
+	margin-top: 1rem;
+}
+
 .post h1, .post h2, .post h3, .post h4 {
 	margin: 1rem 0;
 }
 
 .post h2:first-child, .project h2:first-child, .photo h2:first-child {
-	margin-top: 0;
+	margin-top: 1rem;
 }
 
 .meta {
@@ -103,7 +111,15 @@ blockquote {
     padding-left: 1rem;
 }
 
-h1,h2,h3,h4,h5 {
+h1 {
+	line-height: 1;
+	margin: 1rem 0;
+	font-weight: 600;
+	text-align: right;
+	margin-right: 2rem;
+}
+
+h2,h3,h4,h5 {
 	line-height: 1;
 	margin: 1rem 0;
 	font-weight: 600;
@@ -138,6 +154,7 @@ strong, b {
 	display:flex;
 	justify-content:space-between;
 	margin-bottom: .5rem;
+	//padding-left: 1rem;
 }
 
 .posts li a, .posts li div, .projects li a {
@@ -154,19 +171,30 @@ strong, b {
 }
 
 .post ul, .project ul, .post ol  {
-	//list-style-position: inside;
+	list-style-position: inside;
 }
 
 main {
-	display:flex;
-	flex-wrap:wrap;
-	max-width:60rem;
-	margin:2rem auto;
-	padding:1rem;
+	flex-basis: 0;
+	flex-grow: 999;
+	min-width: 70%;
+	display: flex;
+	flex-direction: column;
 }
 
+.layout-container {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 60rem;
+	margin: 2rem auto 0;
+	padding: 1rem;
+}
 
 @media screen and (max-width: 45rem ) {
+
+h1 {
+	text-align: left;
+}
 header li {
     display: inline;
 	margin-right: 1rem;
@@ -194,7 +222,6 @@ section {
 	min-width:70%;
 	display:flex;
 	flex-direction:column;
-	
 }
 
 figcaption {

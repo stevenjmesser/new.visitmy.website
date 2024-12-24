@@ -6,13 +6,12 @@ layout: compress
 <html lang="en" >
   {% include head.html %}  
   <body>
-    <main>
-	    
-	    {% include navigation.html %}
-	    
+    <div class="layout-container">
+      {% include navigation.html %}
+      <main>
         {{ content }}
-        	    
-    </main>
-            
+      </main>
+    </div>
+    <data class="u-url" rel="me" href="{{ "/" | relative_url }}"></data>
   </body>
 </html>

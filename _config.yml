@@ -1,17 +1,14 @@
-site: Sidey
-url: #yoururl
-title: Sidey
-description: Simple and minimalistic jekyll blogging theme.
-twitter:
-  username: #yourusername
-  card: summary
-  creator: #yourusername
+site: Harsh Browns
+url: https://visitmy.website
+title: Harsh Browns
+description: Steve Messer’s website.
+default_img: /assets/images/8a595a78177bf62b.jpeg
 author:
-  twitter: #yourusername
-  name: #yourusername
+  twitter: stevenjmesser
+  name: Steve Messer
   avatar:
   email: #youremail
-  url: #yoururl
+  url: https://visitmy.website
 permalink: pretty
 
 baseurl: ""
@@ -20,6 +17,8 @@ highlighter: none
 
 exclude:
   - .jekyll-cache
+  - .ai_related_posts_cache.sqlite3
+  - .ai_related_posts_cache.sqlite3-journal
   
 compress_html:
   clippings: all
@@ -31,8 +30,10 @@ sass:
 
 plugins:
   - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap  
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-webmention_io
+  - jekyll_ai_related_posts
 
 collections:
   pages:
@@ -42,6 +43,19 @@ collections:
     output: true
     permalink: /:year/:month/:day/:slug
   
+webmentions:
+  username: visitmy.website
+  throttle_lookups:
+    last_week: weekly
+    last_month: monthly
+    last_year: monthly
+    older: every 3 months
+
+ai_related_posts:
+  openai_api_key: 
+
+markdown: kramdown
+
 defaults:
   -
     scope:
