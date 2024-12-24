@@ -54,6 +54,8 @@ webmentions:
 ai_related_posts:
   openai_api_key: 
 
+markdown: kramdown
+
 defaults:
   -
     scope:
